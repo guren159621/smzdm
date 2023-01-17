@@ -29,7 +29,7 @@ jobs:
 
       - name: Working
         env:
-          SMZDM_COOKIE: ${{ secrets.SMZDM_COOKIE }}
+          SMZDM_COOKIE: ${{ secrets.__ckguid=r2x66LaV7I7qfN5tpQAWeN5; device_id=21307064331673919256841012ba6afd36842fc2a03272315cf04b2ce4; homepage_sug=b; r_sort_type=score; footer_floating_layer=0; ad_date=17; ad_json_feed=%7B%7D; Hm_lvt_9b7ac3d38f30fe89ff0b8a0546904e58=1673919261; _zdmA.vid=*; sajssdk_2015_cross_new_user=1; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%22185bd5cea7c452-08e43bbbfd35d9-624c6953-1395396-185bd5cea7da72%22%2C%22first_id%22%3A%22%22%2C%22props%22%3A%7B%22%24latest_traffic_source_type%22%3A%22%E5%BC%95%E8%8D%90%E6%B5%81%E9%87%8F%22%2C%22%24latest_search_keyword%22%3A%22%E6%9C%AA%E5%8F%96%E5%88%B0%E5%80%BC%22%2C%22%24latest_referrer%22%3A%22https%3A%2F%2Fgithub.com%2Fguren159621%2Fsmzdm%22%7D%2C%22%24device_id%22%3A%22185bd5cea7c452-08e43bbbfd35d9-624c6953-1395396-185bd5cea7da72%22%7D; sess=BA-0Ob9o64HxK9Z3pS1WRUv1sD%2BABT49GnubqSDN%2FCgTxwTRPxOH8hAAv8kAJNyxpFUN2k0Q%2BYoaWUw%2BFEf1CD6NipWUtyQnoY5XVGQ0rW1qng46DH7tAqE2HKG; user=user%3A1605285564%7C1605285564; smzdm_id=1605285564; _zdmA.uid=ZDMA.E-NyYyhSW.1673919302.2419200; Hm_lpvt_9b7ac3d38f30fe89ff0b8a0546904e58=1673919302; bannerCounter=%5B%7B%22number%22%3A1%2C%22surplus%22%3A1%7D%2C%7B%22number%22%3A0%2C%22surplus%22%3A1%7D%2C%7B%22number%22%3A0%2C%22surplus%22%3A1%7D%2C%7B%22number%22%3A0%2C%22surplus%22%3A1%7D%2C%7B%22number%22%3A0%2C%22surplus%22%3A1%7D%2C%7B%22number%22%3A0%2C%22surplus%22%3A1%7D%5D; amvid=4a7962d6e89483a4335317efea355297; _zdmA.time=1673919313130.0.https%3A%2F%2Fwww.smzdm.com%2F }}
           PUSH_PLUS_TOKEN: ${{ secrets.PUSH_PLUS_TOKEN }}
           SC_KEY: ${{ secrets.SC_KEY }}
           TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
